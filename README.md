@@ -52,3 +52,16 @@ Portanto, desenvolva um código de web scraping que obtenha a tarifa diretamente
 5. Inclua neste mesmo README uma seção detalhada que explique claramente os passos necessários para executar o código. Certifique-se de que as instruções sejam precisas, organizadas e fáceis de entender, pois os avaliadores seguirão essa documentação;
 6. A entrega deve ser realizada dentro do prazo estabelecido;
 7. O candidato deve fazer um fork do repositório. A entrega pode ser realizada por meio de um pull request para o repositório original (o que será considerado um diferencial) ou enviando o link do seu repositório para o e-mail lucas@dg.energy.
+
+### Como executar o código:
+Código criado utilizando Python 3.12.8 no SO linux Mint 21.3 e automações feitas no navegador Google Chrome. Usando o terminal e na pasta do projeto faça os seguintes passos.
+
+1. Crie um ambiente virtual python:
+  `python3.12 venv desafioDigitalGrid`
+  `source desafioDigitalGrid/bin/activate`
+2. Instale as bibliotecas presentes em requirements.txt:
+  `pip install -r requirements.txt`
+3. Agora é só executar os scripts
+  `python3.12 calculadora_desafio1.py`
+  `python3.12 calculadora_desafio2py`
+
